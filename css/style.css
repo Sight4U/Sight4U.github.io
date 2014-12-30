@@ -290,6 +290,7 @@ header .carousel-indicators li {
 }
 
 .detail .app-screenshot{
+	opacity:0.1;
 	overflow: hidden;
 	overflow: hidden;
 	margin-right: auto;
@@ -302,7 +303,7 @@ header .carousel-indicators li {
 }
 
 .detail .app-screenshot img{
-	opacity:0.6;
+	opacity:0.1;
 	margin-right: auto;
 	margin-left: auto;
 	padding-left: 4px;
