@@ -178,6 +178,7 @@ header .carousel-iphone{
 	margin-left: auto;
 	width: 320px;
 	height: 672px;
+	opacity:0.4;
 	background: url('../img/iphone-front.png') no-repeat;
 	background-size: 100%;
 
@@ -524,14 +525,12 @@ header, .social{
 	}
 	
 	header .carousel, .detail .app-screenshot img{
-		opacity:0.4;
 		padding-top: 85px;
 		width: 245px;
 		opacity:0.2;
 	}
 	
 	.detail .app-screenshot img{
-		opacity:0.4;
 		margin-top: -12px;
 		padding-top: 0px;
 	}
