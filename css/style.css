@@ -297,11 +297,12 @@ header .carousel-indicators li {
 	padding-top: 95px;
 	width: 320px;
 	height: 450px;
-	background: url('../img/phone.png') ;
-	background-size: 100%;
+	background: url('../img/phone.png') no-repeat;
+	
 }
 
 .detail .app-screenshot img{
+	opacity:0.1;
 	margin-right: auto;
 	margin-left: auto;
 	padding-left: 4px;
