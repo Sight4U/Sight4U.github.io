@@ -324,7 +324,6 @@ header .carousel-indicators li {
 }
 
 .detail .carousel-indicators .active {
-	opacity:0.1;
 	width: 45px;
 	height: 5px;
 	border: none;
