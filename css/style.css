@@ -305,6 +305,8 @@ header .carousel-indicators li {
 	margin-left: auto;
 	padding-left: 4px;
 	width: 280px;
+	opacity:0.4;   
+	
 }
 
 .detail .carousel-indicators {
