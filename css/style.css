@@ -222,7 +222,7 @@ header .carousel-indicators li {
 
 .purchase{
 	overflow: hidden;
-	padding: 100px 0px 100px 0px;
+	padding: 150px 0px 10px 0px;
 	min-height: 200px;
 }
 
@@ -298,11 +298,10 @@ header .carousel-indicators li {
 	width: 320px;
 	height: 450px;
 	background: url('../img/phone.png') no-repeat;
-	
+	background-size: 100%;
 }
 
 .detail .app-screenshot img{
-	opacity:0.1;
 	margin-right: auto;
 	margin-left: auto;
 	padding-left: 4px;
