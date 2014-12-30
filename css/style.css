@@ -297,7 +297,7 @@ header .carousel-indicators li {
 	padding-top: 95px;
 	width: 320px;
 	height: 450px;
-	background: url('../img/phone.png') no-repeat;
+	background: url('../img/phone.png') ;
 	background-size: 100%;
 }
 
@@ -526,7 +526,6 @@ header, .social{
 	header .carousel, .detail .app-screenshot img{
 		padding-top: 85px;
 		width: 245px;
-		opacity:0.2;
 	}
 	
 	.detail .app-screenshot img{
