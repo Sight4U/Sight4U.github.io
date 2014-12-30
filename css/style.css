@@ -304,9 +304,8 @@ header .carousel-indicators li {
 	margin-right: auto;
 	margin-left: auto;
 	padding-left: 4px;
-	width: 280px;
-	opacity:0.4;   
-	
+	width: 280px;   
+
 }
 
 .detail .carousel-indicators {
@@ -526,6 +525,7 @@ header, .social{
 	header .carousel, .detail .app-screenshot img{
 		padding-top: 85px;
 		width: 245px;
+		opacity:0.2;
 	}
 	
 	.detail .app-screenshot img{
