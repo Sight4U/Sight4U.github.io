@@ -295,10 +295,10 @@ header .carousel-indicators li {
 	margin-right: auto;
 	margin-left: auto;
 	padding-top: 30px;
-	width: 320px;
+	width: 700px;
 	height: 450px;
 	background: url('../img/phone2.png') no-repeat;
-	background-size: 220%;
+	background-size: 100%;
 }
 
 .detail .app-screenshot img{
@@ -349,7 +349,7 @@ header .carousel-indicators li {
 .features{
 	overflow: hidden;
 	padding: 150px 0px 150px 0px;
-	min-height: 400px;
+	min-height: 500px;
 	color: black;
 }
 
