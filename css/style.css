@@ -1,17 +1,4 @@
-/* 
 
-
-    _/                                  _/            
-   _/          _/_/_/  _/_/_/      _/_/_/  _/    _/   
-  _/        _/    _/  _/    _/  _/    _/  _/    _/    
- _/        _/    _/  _/    _/  _/    _/  _/    _/     
-_/_/_/_/    _/_/_/  _/    _/    _/_/_/    _/_/_/      
-                                             _/       
-                                        _/_/          
-                                                 
-											   V 1.0                                  
-                                  													 
-                                  													 */
 @import "iconfont.css";
 @import "animate.min.css";
 
@@ -215,6 +202,77 @@ header .carousel-indicators li {
 	text-indent: -999px;
 	cursor: pointer;
 }
+/*-----------------------------------------------------------------------------------*/
+/* DONWNLOAD 
+/*-----------------------------------------------------------------------------------*/
+
+.download{
+	padding: 50px 0px 0px 0px;
+	height: 900px;
+	background-color:#74c5be; 
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+}
+.download .icon{
+	padding: 100px 0px 0px 730px;
+}
+
+.download h1{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-weight: 300;
+	font-size: 100px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.download p.lead{
+	font-size: 36px;
+}
+
+
+.download .carousel-iphone{
+	margin-right: auto;
+	margin-left: auto;
+	width: 320px;
+	height: 672px;
+	background: url('../img/p3_4.png') no-repeat;
+	background-size: 100%;
+
+	-ms-transform: rotate(30deg); /* IE 9 */
+    -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
+    transform: rotate(30deg);
+	
+}
+
+.download .carousel {
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 95px 0px 0px 4px;
+	width: 282px;
+}
+
+.download .carousel-indicators .active {
+	width: 15px;
+	height: 15px;
+	background: #444444;
+}
+
+.download .carousel-indicators {
+	bottom: -63px;
+}
+
+.download .carousel-indicators li {
+	display: inline-block;
+	margin: 1px;
+	width: 15px;
+	height: 15px;
+	border: 1px solid #666666;
+	border-radius: 10px;
+	text-indent: -999px;
+	cursor: pointer;
+}
 
 /*-----------------------------------------------------------------------------------*/
 /* PURCHASE
@@ -261,7 +319,7 @@ header .carousel-indicators li {
 .detail{
 	overflow: hidden;
 	padding: 50px 0px 0px 0px;
-	min-height: 500px;
+	min-height: 200px;
 }
 
 .detail .title{
@@ -345,18 +403,19 @@ header .carousel-indicators li {
 /*-----------------------------------------------------------------------------------*/
 /*	FEATURES
 /*-----------------------------------------------------------------------------------*/
+/*此段為自己加的*/
+
 
 .features{
 	overflow: hidden;
 	padding: 150px 0px 150px 0px;
-	min-height: 500px;
+	min-height: 200px;
 	color: black;
 }
 
 .features p {
 	font-weight: 400;
 }
-
 .features h2{
 	color: #ffffff;
 	text-transform: uppercase;
@@ -382,36 +441,6 @@ header .carousel-indicators li {
 	font-size: 5em;
 }
 
-/*-----------------------------------------------------------------------------------*/
-/*	SOCIAL
-/*-----------------------------------------------------------------------------------*/
-
-.social{
-	overflow: hidden;
-	padding: 80px 0px 150px 0px;
-	min-height: 350px;
-	background: url('../img/sea.jpg');
-	background-position: center top;
-	background-repeat: repeat-x;
-	color: white;
-}
-
-.social h2{
-	color: white;
-}
-
-.social a {
-	margin-left: 10px;
-	color: #FFF;
-	font-size: 5em;
-	transition: all 0.3s;
-}
-
-.social a:hover{
-	text-decoration: none;
-	cursor: pointer;
-	
-}
 
 /*-----------------------------------------------------------------------------------*/
 /*	GET-IT
@@ -422,12 +451,7 @@ header .carousel-indicators li {
 	text-align: center;
 }
 
-.get-it button.app-store{
-	width: 152px;
-	height: 52px;
-	background: url(../img/badge-appstore.png) #373737 no-repeat 0px 5px;
-	color: white;
-}
+
 
 .get-it hr{
 	margin-top: 3em;
@@ -500,7 +524,10 @@ header, .social{
 	background-position-y: 0px;
 	background-size: 200%;
 }
-
+.download, .social{
+	background-position-y: 0px;
+	background-size: 200%;
+}
 .payoff{
 	padding-top: 50px;
 	padding-bottom: 50px;
@@ -527,7 +554,14 @@ header, .social{
 		padding-top: 85px;
 		width: 245px;
 	}
+	.download .carousel-iphone, .detail .app-screenshot{
+		width: 280px;
+	}
 	
+	.download .carousel, .detail .app-screenshot img{
+		padding-top: 85px;
+		width: 245px;
+	}
 	.detail .app-screenshot img{
 		margin-top: -12px;
 		padding-top: 0px;

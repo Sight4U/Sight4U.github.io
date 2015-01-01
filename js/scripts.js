@@ -1,6 +1,7 @@
 // toggle visibility for css3 animations 
 $(document).ready(function() {
 	$('header').addClass('visibility');
+	$('.download').addClass('visibility');
 	$('.carousel-iphone').addClass('visibility');
 	$('.payoff h1').addClass('visibility');
 	$('.features .col-md-4').addClass('visibility');
@@ -11,6 +12,7 @@ $(document).ready(function() {
 //iphone carousel animation
 $(window).load(function () {
 	$('header').addClass("animated fadeIn");
+	$('.download').addClass("animated fadeIn");
 	$('.carousel-iphone').addClass("animated fadeInLeft");
 });
 
@@ -157,7 +159,9 @@ $(window).resize(function () {
 $('header .carousel').carousel({
   interval: 3000
 })
-
+$('.download .carousel').carousel({
+  interval: 3000
+})
 // iPhone Features Carousel
 $('.detail .carousel').carousel({
   interval: 4000
