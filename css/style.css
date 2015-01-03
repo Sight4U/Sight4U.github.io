@@ -225,7 +225,6 @@ header .carousel-indicators li {
 	font-size: 100px;
 	font-family: 'Roboto Condensed', sans-serif;
 }
-
 .download p.lead{
 	font-size: 36px;
 }
@@ -447,10 +446,13 @@ header .carousel-indicators li {
 /*-----------------------------------------------------------------------------------*/
 
 .get-it{
-	padding: 100px 0px 160px 0px;
+	padding: 0px 0px 0px 0px;
 	text-align: center;
 }
-
+.get-it .lb{
+	height: 400px;
+	overflow: hidden;
+}
 
 
 .get-it hr{
