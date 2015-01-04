@@ -450,10 +450,14 @@ header .carousel-indicators li {
 	text-align: center;
 }
 .get-it .lb{
+	background: url('../img/bg2.jpg');
 	height: 400px;
 	overflow: hidden;
 }
-
+.get-it .first{
+	margin-top: 300px;
+	margin-left: 800px;
+}
 
 .get-it hr{
 	margin-top: 3em;
