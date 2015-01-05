@@ -273,6 +273,7 @@ header .carousel-indicators li {
 	cursor: pointer;
 }
 
+
 /*-----------------------------------------------------------------------------------*/
 /* PURCHASE
 /*-----------------------------------------------------------------------------------*/
@@ -450,13 +451,20 @@ header .carousel-indicators li {
 	text-align: center;
 }
 .get-it .lb{
-	background: url('../img/bg2.jpg');
-	height: 400px;
+	background: url('../img/bg2.jpg')no-repeat;
+	height: 1000px;
 	overflow: hidden;
 }
 .get-it .first{
-	margin-top: 300px;
-	margin-left: 800px;
+	margin-top: 140px;
+	margin-left: 720px;
+}
+.get-it .sec{
+	padding: 0px 0px 0px 0px;
+	margin-top: 20px;
+	margin-right: 400px;
+	margin-left: 50px;
+
 }
 
 .get-it hr{
@@ -473,7 +481,7 @@ header .carousel-indicators li {
 
 .get-it ul li{
 	display: inline-block;
-	margin-left:30px;
+	
 }
 
 .get-it ul li:first-child{
