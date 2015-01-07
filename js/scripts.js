@@ -151,7 +151,7 @@ $(window).resize(function () {
 		});
 	
 	}
-
+	changewidth();
 });	
 
 
@@ -166,4 +166,40 @@ $('.download .carousel').carousel({
 $('.detail .carousel').carousel({
   interval: 4000
 })
+
+window.onload = changewidth();
+function changewidth () {
+	var Hover_elemet = document.getElementById("HoverSection");
+	var Img_wid = document.getElementById("HoverImg1").width;
+	var Img_hei = document.getElementById("HoverImg1").height;
+	Hover_elemet.setAttribute('style', 'height:'+ Img_hei +'px !important; margin-top:-'+Img_hei+'px;');
+}
+
+$( "#HoverImg1" ).hover(
+  function() {
+
+  	if ($( window ).width() > 992) {
+  		$('#HoverId' ).append('<div id="DivForImg"><img src="img/p3_1_app.png" alt="" /><img src="img/p3_2.png" alt="" /></div>');
+	  	$('#DivForImg').css('margin-top',-300+'px');
+	  	$('#DivForImg').css('margin-right',700+'px');
+  	};
+
+  	
+
+  	// $('#HoverId').append('<img id="CircleImg" src="img/p3_3.png" alt="" />');
+  	// $('CircleImg').css('margin-top',-500+'px');
+    // console.log("HoverSection in");
+  }, function() {
+  	// console.log("HoverSection out");
+  	if ($( window ).width() > 992) {
+    	$('#HoverId' ).find( '#DivForImg' ).remove();
+    }
+    //$('#HoverSection').find( 'img' ).remove();
+  }
+);
+
+
+// document.getElementById("HoverSection").width = document.getElementById("HoverImg1").style.width;
+// document.getElementById("HoverSection").height = document.getElementById("HoverImg1").style.height;
+
 
